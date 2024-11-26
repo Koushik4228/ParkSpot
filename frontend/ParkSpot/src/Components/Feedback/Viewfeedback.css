@@ -1,0 +1,102 @@
+/* Viewfeedback.css */
+
+/* General styles */
+.feedback-list-container {
+    margin: 0; /* Remove automatic margin */
+    max-width: 800px; /* Limit the width */
+    padding: 20px; /* Padding around the container */
+    position: relative; /* Allow absolute positioning of inner elements if needed */
+    left: 400px; /* Adjust this value based on your sidebar width */
+    margin-left: -330px;
+    
+}
+
+/* Table styles */
+.feedback-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+.feedback-table-header, .feedback-table-body {
+    /* No specific styles, but can be adjusted if needed */
+}
+
+.feedback-title {
+    
+    font-size: 2em; /* Font size for the heading */
+    /* margin: 40px 0 20px 0; Top margin for spacing, bottom margin for separation */
+    color: #333; /* Optional: Change text color */
+    font-weight: bold; /* Make the text bold */
+    margin-right: 1200px;
+    
+    
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .feedback-title {
+        font-size: 1.5em; /* Smaller font size on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .feedback-title {
+        font-size: 1.2em; /* Even smaller font size on small screens */
+    }
+}
+
+.feedback-table-header-cell,
+.feedback-table-body-cell {
+    border: 1px solid #ddd; /* Border for table cells */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left-align text */
+}
+
+.feedback-table-header-cell {
+    background-color: #f7ca4e; /* Header background color */
+    color: black; /* Header text color */
+}
+
+.feedback-table-striped tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+/* Heading styles */
+.feedback-title {
+    text-align: left; /* Left-align the heading */
+    font-size: 2em; /* Font size for heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Loading and error messages */
+.loading-message,
+.error-message {
+    text-align: center; /* Center loading/error messages */
+    font-size: 1.2em; /* Font size for messages */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .feedback-table-header-cell,
+    .feedback-table-body-cell {
+        font-size: 0.9em; /* Smaller text for smaller screens */
+        padding: 8px; /* Adjust padding */
+    }
+
+    .feedback-title {
+        font-size: 1.5em; /* Smaller heading */
+    }
+}
+
+@media (max-width: 480px) {
+    .feedback-table-header-cell,
+    .feedback-table-body-cell {
+        font-size: 0.8em; /* Even smaller text for very small screens */
+        padding: 6px; /* Adjust padding */
+    }
+
+    .feedback-title {
+        font-size: 1.2em; /* Smaller heading */
+    }
+}

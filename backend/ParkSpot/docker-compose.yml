@@ -1,0 +1,74 @@
+version: "3.9"
+services:
+ sqlserver:
+   image: mcr.microsoft.com/mssql/server
+   ports:
+     - "1433:1433"
+   environment:
+    - ACCEPT_EULA=Y
+    - SA_PASSWORD=Passw0rd
+ accountservice:
+    image: ${DOCKER_REGISTRY-}accountservice
+    build:
+      context: .
+      dockerfile: AccountService/Dockerfile
+
+    ports:
+      - "5001:5001"
+    depends_on:
+        - sqlserver
+ apigatewayservice:
+    image: ${DOCKER_REGISTRY-}apigatewayservice
+    build:
+      context: .
+      dockerfile: API gateway service/Dockerfile
+
+    ports:
+      - "5000:5000"
+
+
+ bookingservice:
+    image: ${DOCKER_REGISTRY-}bookingservice
+    build:
+      context: .
+      dockerfile: BookingService/Dockerfile
+
+    ports:
+      - "5002:5002"
+    depends_on:
+        - sqlserver
+
+ emailservice:
+    image: ${DOCKER_REGISTRY-}emailservice
+    build:
+      context: .
+      dockerfile: EmailService/Dockerfile
+
+    ports:
+      - "5003:5003"
+    depends_on:
+        - sqlserver
+
+ feedbackservice:
+    image: ${DOCKER_REGISTRY-}feedbackservice
+    build:
+      context: .
+      dockerfile: FeedbackService/Dockerfile
+
+    ports:
+      - "5004:5004"
+    depends_on:
+        - sqlserver
+
+
+ parkingprovider:
+    image: ${DOCKER_REGISTRY-}parkingprovider
+    build:
+      context: .
+      dockerfile: ParkingProvider/Dockerfile
+
+    ports:
+      - "5005:5005"
+    depends_on:
+        - sqlserver
+

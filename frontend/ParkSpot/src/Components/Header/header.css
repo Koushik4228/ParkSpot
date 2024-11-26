@@ -1,0 +1,195 @@
+/* General header styles */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  height: 70px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+/* Logo and Title Container */
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Logo */
+.header-logo {
+  width: 70px;
+  height: 50px;
+  margin-right: 10px; /* Reduce right margin for better alignment */
+}
+
+/* Title beside Logo */
+.header-title {
+  font-size: 1.5rem;
+  color: #000;
+  white-space: nowrap;
+  margin-right: 10px; /* Reduce margin to make room */
+  font-weight: bolder;
+}
+
+/* Navigation links */
+.header-navlinks {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* Individual navigation button */
+.header-navbutton {
+  color: #000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+  white-space: nowrap;
+  font-weight: bolder;
+
+}
+
+.header-navbutton:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Authentication button */
+.header-authbutton {
+  background-color: #f7ca4e;
+  color: black;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+  white-space: nowrap;
+  margin-right: 5px;
+  width: 130px;
+}
+
+/* Sign Up button styling */
+.header-signupbutton {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+  white-space: nowrap;
+ 
+}
+
+.header-authbutton:hover {
+  background-color: #f7b848;
+}
+
+.header-signupbutton:hover {
+  background-color: #e67e22;
+}
+
+/* Toggle button for mobile view */
+.toggle-button {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Responsive styles for screens 768px and below */
+@media (max-width: 768px) {
+  .main-header {
+      flex-direction: column;
+      height: auto;
+      padding: 15px;
+      align-items: flex-start;
+  }
+
+  .logo-title-container {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 10px;
+  }
+
+  .header-logo {
+      margin-right: 10px;
+  }
+
+  .header-title {
+      font-size: 1.2rem;
+      margin-right: 0;
+  }
+
+  .toggle-button {
+      display: block;
+      align-self: flex-end;
+      margin-bottom: 10px;
+  }
+
+  .header-navlinks {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      background-color: #fff;
+      padding: 10px 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      z-index: 99;
+  }
+
+  .header-navlinks.active {
+      display: flex;
+  }
+
+  .header-navbutton,
+  .header-authbutton,
+  .header-signupbutton {
+      font-size: 1rem;
+      padding: 6px 12px;
+      text-align: center;
+      width: 100%; /* Full width for buttons on mobile */
+  }
+}
+
+/* Additional styles for small screens (e.g., iPhone 12 width, 390px) */
+@media (max-width: 390px) {
+  .header-logo {
+      width: 50px; /* Slightly smaller logo */
+      height: auto;
+  }
+
+  .header-title {
+      font-size: 1.2rem; /* Reduce title font size */
+  }
+
+  .header-authbutton,
+  .header-signupbutton {
+      padding: 6px 8px; /* Adjust padding for smaller screens */
+      font-size: 0.9rem; /* Slightly smaller font */
+      
+  }
+
+  .header-navlinks {
+      gap: 5px; /* Reduce gap between nav links */
+      margin-right: 5px;
+  }
+
+  .header-navbutton {
+      font-size: 0.9rem; /* Smaller font size for nav buttons */
+  }
+}
+

@@ -1,0 +1,68 @@
+/* ViewProfile.css */
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 130px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column; /* Default to column layout */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-image {
+  margin-bottom: 15px;
+}
+
+.profile-info {
+  font-size: 1rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 600px) {
+  .profile-card {
+    flex-direction: row; /* Switch to row layout on larger screens */
+  }
+
+  .profile-image {
+    margin-right: 20px;
+  }
+
+  .profile-info {
+    text-align: left; /* Align text left on larger screens */
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .profile-container {
+    padding: 10px;
+  }
+
+  .profile-image img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

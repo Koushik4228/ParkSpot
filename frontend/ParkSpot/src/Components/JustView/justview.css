@@ -1,0 +1,231 @@
+/* Overall container to hold everything */
+.justview-booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+
+.slots-manager-search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    width: 40%;
+    padding: 12px; /* Padding for spacing */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for emphasis */
+    margin-left: 10px;
+}
+
+/* Styling for the Input Field */
+.slots-manager-search-box .MuiTextField-root {
+    flex-grow: 1; /* Make input grow to fill available space */
+    max-width: 500px; /* Set a max width for the input */
+    margin-right: 15px; /* Add space between input and button */
+    border-radius: 8px; /* Rounded corners for the input */
+}
+
+/* Styling for the Search Button */
+.slots-manager-search-box button {
+    background-color: #f7ca4e; /* Blue background for the button */
+    color: rgb(0, 0, 0); /* White text color */
+    padding: 12px 20px; /* Adequate padding for a clickable button */
+    font-size: 16px; /* Font size for readability */
+    border: none;
+    border-radius: 8px; /* Rounded corners for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+/* Search Button Hover State */
+.slots-manager-search-box button:hover {
+    background-color: #f7ca4e; /* Darker blue on hover */
+}
+
+/* Main Content - Cards and Map Layout (Side by Side) */
+.justview-main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 20px;
+}
+
+/* Cards Container */
+.justview-booking-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 70%; /* Cards will take 70% of available space */
+    overflow-y: auto; /* Makes the container scrollable */
+    height: calc(100vh - 120px); /* Set a fixed height based on viewport height */
+    padding-right: 20px; /* Prevent content from touching the edge */
+}
+
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
+
+/* Styling for the Booking Cards */
+.justview-booking-card {
+    width: 400px;
+    max-width: 600px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    max-height: 500px !important; /* Ensures the card doesn't stretch too tall */
+}
+
+.justview-booking-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Styling for Typography inside the card */
+.justview-booking-card .MuiTypography-body1 {
+    font-weight: bold;
+    margin-bottom: 12px; /* More space between elements */
+}
+/* Hide scrollbar but still allow scrolling */
+.justview-booking-container::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+
+<<<<<<< Updated upstream
+/* Hide scrollbar but still allow scrolling */
+.justview-booking-container::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+ 
+=======
+>>>>>>> Stashed changes
+/* For Firefox, hide scrollbar without affecting scroll functionality */
+.justview-booking-container {
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
+/* Book Now Button styling */
+.btn-justview {
+    background-color: #f7ca4e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px; /* Increased padding */
+    cursor: pointer;
+}
+
+
+
+
+
+/* Styling for the Link inside Button */
+#l1 {
+    color: black;
+    text-decoration: none;
+}
+
+/* Error message for invalid location */
+.error-message {
+    margin-top: 20px;
+    color: red;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Mobile responsiveness adjustments */
+@media (max-width: 1024px) {
+    /* For tablets or smaller screens */
+    .justview-main-content {
+        flex-wrap: wrap; /* Allow wrapping to stack cards and map */
+    }
+
+    .justview-booking-container {
+        width: 100%; /* Full width for cards on smaller screens */
+    }
+
+    .map-container {
+        width: 100%; /* Full width for the map on smaller screens */
+        height: 300px; /* Reduce map height on tablet */
+        margin-top: 20px; /* Optional margin between cards and map */
+    }
+
+    .slots-manager-search-box .MuiTextField-root {
+        max-width: 100%; /* Ensure search bar takes full width */
+        margin-right: 0; /* Remove margin */
+    }
+
+    .slots-manager-search-box button {
+        width: 100%; /* Button takes full width */
+        margin-top: 10px;
+    }
+}
+
+/* For smaller mobile devices */
+@media (max-width: 768px) {
+    /* For mobile devices */
+    .justview-main-content {
+        flex-direction: column; /* Stack cards and map vertically */
+    }
+
+    .justview-booking-container {
+        width: 100%; /* Full width for cards on mobile */
+    }
+
+    .map-container {
+        width: 100%; /* Full width for the map on mobile */
+        height: 250px; /* Smaller height for the map on mobile */
+    }
+
+    .slots-manager-search-box {
+        padding: 10px;
+    }
+
+    .slots-manager-search-box .MuiTextField-root {
+        width: 100%; /* Full width for input field */
+        margin-right: 0; /* Remove margin */
+    }
+
+    .slots-manager-search-box button {
+        width: 100%; /* Button takes full width on mobile */
+        margin-top: 10px;
+    }
+}
+
+/* For very small screens, like very small phones (width <= 400px) */
+@media (max-width: 400px) {
+    .slots-manager-search-box {
+        flex-direction: column; /* Stack search elements vertically */
+        align-items: stretch;
+    }
+
+    .slots-manager-search-box .MuiTextField-root,
+    .slots-manager-search-box button {
+        width: 100%; /* Full width for both input and button */
+        margin-bottom: 10px; /* Add space between input and button */
+    }
+
+    .justview-booking-card {
+        width: 100%; /* Full width for cards on very small screens */
+        margin: 10px; /* Reduce margin */
+        max-width: none; /* Remove max-width */
+    }
+
+    .justview-booking-container {
+        width: 100%; /* Full width for cards on very small screens */
+    }
+
+    .map-container {
+        width: 100%; /* Full width for the map on very small screens */
+        height: 200px; /* Even smaller map height */
+    }
+}

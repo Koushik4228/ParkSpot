@@ -1,0 +1,154 @@
+/* Footer Layout */
+.custom-layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white; /* Set text color to white for contrast */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+/* Section Titles */
+.custom-class {
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 10px;
+}
+
+/* Width for Better Readability */
+.custom-width {
+  max-width: 400px; /* Limit width for better readability */
+  
+}
+.custom-p{
+  color: white;
+}
+
+/* Section Text */
+.custom-text {
+  font-weight: bold; /* Make section titles bold */
+  margin-bottom: 10px;
+}
+
+/* List Styles */
+.custom-flex {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.custom-flex li {
+  margin: 5px 0; /* Add some space between list items */
+}
+
+/* Horizontal Line */
+.hr {
+  border: 1px solid gray; /* Customize the hr color */
+  margin: 20px 0; /* Add spacing above and below hr */
+}
+
+/* Footer Text */
+.footer {
+  text-align: center; /* Center the copyright text */
+  padding: 10px 0; /* Add padding for spacing */
+  color: white; /* Set copyright text color to white */
+}
+
+.footer-custom {
+  margin-right: 100px; /* Space between footer columns */
+}
+
+.footer-custom2 {
+  margin-right: 100px; /* Adjust spacing */
+}
+
+/* Adjust List Style */
+.custom-flex1 li {
+  list-style-type: none;
+  margin-left: -30px;
+  
+}
+
+.custom-a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Links */
+a {
+  text-decoration: none; /* Removes the underline */
+  color: white; /* Makes the link text white */
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+/* Responsive Adjustments */
+
+/* For medium screens (tablets) */
+@media only screen and (max-width: 1024px) {
+  .custom-layout {
+    padding: 20px;
+    justify-content: space-around; /* Adjust spacing between columns */
+  }
+
+  .footer-custom, .footer-custom2 {
+    margin-right: 50px; /* Reduce margin for smaller screens */
+  }
+
+  .custom-width {
+    max-width: 300px; /* Adjust width for readability */
+  }
+
+  .custom-class {
+    font-size: 20px; /* Adjust font size */
+  }
+}
+
+/* For small screens (phones) */
+@media only screen and (max-width: 768px) {
+  .custom-layout {
+    flex-direction: column; /* Stack the footer sections vertically */
+    align-items: center; /* Center align all content */
+    padding: 20px;
+  }
+
+  .custom-width {
+    max-width: 100%; /* Allow full width for better readability */
+    text-align: center; /* Center text for smaller screens */
+  }
+
+  .custom-class {
+    font-size: 18px; /* Smaller font size for small screens */
+  }
+
+  .footer-custom, .footer-custom2 {
+    margin-right: 0; /* Remove margins to prevent overflow */
+  }
+}
+
+/* For extra small screens (mobile) */
+@media only screen and (max-width: 480px) {
+  .custom-layout {
+    padding: 15px;
+  }
+
+  .custom-width {
+    max-width: 100%; /* Allow full width on mobile */
+    text-align: center; /* Center align text */
+  }
+
+  .custom-class {
+    font-size: 16px; /* Smaller font size for extra small screens */
+  }
+
+  .footer-custom, .footer-custom2 {
+    margin-right: 0; /* Remove right margin */
+  }
+
+  a {
+    font-size: 0.9rem; /* Slightly smaller font size for links */
+    padding: 8px 12px; /* Adjust padding for smaller screens */
+  }
+}

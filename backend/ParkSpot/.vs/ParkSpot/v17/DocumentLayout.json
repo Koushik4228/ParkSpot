@@ -1,0 +1,437 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\parkingprovider\\controllers\\parkingslotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|solutionrelative:parkingprovider\\controllers\\parkingslotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\accountservice\\repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|solutionrelative:accountservice\\repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\accountservice\\dto\\updatepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|solutionrelative:accountservice\\dto\\updatepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\accountservice\\dbcontext\\accountdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|solutionrelative:accountservice\\dbcontext\\accountdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\accountservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|solutionrelative:accountservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\accountservice\\dto\\requestreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|solutionrelative:accountservice\\dto\\requestreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\bookingservice\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\bookingservice\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\accountservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|solutionrelative:accountservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5757832-260E-420C-9C05-595938C855AA}|Testing\\Testing.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\testing\\bookingtesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5757832-260E-420C-9C05-595938C855AA}|Testing\\Testing.csproj|solutionrelative:testing\\bookingtesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\bookingservice\\model\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\model\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5757832-260E-420C-9C05-595938C855AA}|Testing\\Testing.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\testing\\parkingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5757832-260E-420C-9C05-595938C855AA}|Testing\\Testing.csproj|solutionrelative:testing\\parkingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6817E1-F5BB-4707-9918-B1284B114681}|FeedbackService\\FeedbackService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\feedbackservice\\repository\\userfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6817E1-F5BB-4707-9918-B1284B114681}|FeedbackService\\FeedbackService.csproj|solutionrelative:feedbackservice\\repository\\userfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\parkingprovider\\models\\parkingslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|solutionrelative:parkingprovider\\models\\parkingslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\accountservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D1C28CB-B5F5-43A7-9C48-AD586929B4EB}|AccountService\\AccountService.csproj|solutionrelative:accountservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\parkingprovider\\services\\slotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|solutionrelative:parkingprovider\\services\\slotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6817E1-F5BB-4707-9918-B1284B114681}|FeedbackService\\FeedbackService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\feedbackservice\\modal\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6817E1-F5BB-4707-9918-B1284B114681}|FeedbackService\\FeedbackService.csproj|solutionrelative:feedbackservice\\modal\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6817E1-F5BB-4707-9918-B1284B114681}|FeedbackService\\FeedbackService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\feedbackservice\\irepository\\ifeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6817E1-F5BB-4707-9918-B1284B114681}|FeedbackService\\FeedbackService.csproj|solutionrelative:feedbackservice\\irepository\\ifeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\parkingprovider\\irepository\\islotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|solutionrelative:parkingprovider\\irepository\\islotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\bookingservice\\migrations\\20241029160146_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\migrations\\20241029160146_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\parkingprovider\\data context\\parkingslotdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|solutionrelative:parkingprovider\\data context\\parkingslotdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\parkingprovider\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7188E079-32E9-4FD9-AF8A-BCD43923FD1D}|ParkingProvider\\ParkingProvider.csproj|solutionrelative:parkingprovider\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C80D7BD-1D9E-482D-BBC4-B232D051F099}|API gateway service\\API gateway service.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\api gateway service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C80D7BD-1D9E-482D-BBC4-B232D051F099}|API gateway service\\API gateway service.csproj|solutionrelative:api gateway service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C80D7BD-1D9E-482D-BBC4-B232D051F099}|API gateway service\\API gateway service.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\api gateway service\\api-gateway-config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C80D7BD-1D9E-482D-BBC4-B232D051F099}|API gateway service\\API gateway service.csproj|solutionrelative:api gateway service\\api-gateway-config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C80D7BD-1D9E-482D-BBC4-B232D051F099}|API gateway service\\API gateway service.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\api gateway service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C80D7BD-1D9E-482D-BBC4-B232D051F099}|API gateway service\\API gateway service.csproj|solutionrelative:api gateway service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|c:\\users\\boggarapu.koushik\\onedrive - happiest minds technologies limited\\documents\\capstone_parkspot\\backend\\parkspot\\bookingservice\\customexceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538C77D0-DE5F-4881-BC26-36A248932531}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\customexceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\DBContext\\AccountDBContext.cs",
+              "RelativeDocumentMoniker": "AccountService\\DBContext\\AccountDBContext.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\DBContext\\AccountDBContext.cs",
+              "RelativeToolTip": "AccountService\\DBContext\\AccountDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:35:19.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdatePasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\DTO\\UpdatePasswordDTO.cs",
+              "RelativeDocumentMoniker": "AccountService\\DTO\\UpdatePasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\DTO\\UpdatePasswordDTO.cs",
+              "RelativeToolTip": "AccountService\\DTO\\UpdatePasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T09:04:03.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestReset.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\DTO\\RequestReset.cs",
+              "RelativeDocumentMoniker": "AccountService\\DTO\\RequestReset.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\DTO\\RequestReset.cs",
+              "RelativeToolTip": "AccountService\\DTO\\RequestReset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T09:02:08.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\Repository\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "AccountService\\Repository\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\Repository\\IAccountRepository.cs",
+              "RelativeToolTip": "AccountService\\Repository\\IAccountRepository.cs",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAAwGEBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:52:13.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParkingSlotsController.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\Controllers\\ParkingSlotsController.cs",
+              "RelativeDocumentMoniker": "ParkingProvider\\Controllers\\ParkingSlotsController.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\Controllers\\ParkingSlotsController.cs",
+              "RelativeToolTip": "ParkingProvider\\Controllers\\ParkingSlotsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "customexception.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\customexceptions\\customexception.cs",
+              "RelativeDocumentMoniker": "BookingService\\customexceptions\\customexception.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\customexceptions\\customexception.cs",
+              "RelativeToolTip": "BookingService\\customexceptions\\customexception.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AccountService\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AccountService\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAC4BAAAAAAAAAAAgwNkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AccountService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AccountService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T08:37:36.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "BookingService\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "BookingService\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwE8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingServices.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\Services\\BookingServices.cs",
+              "RelativeDocumentMoniker": "BookingService\\Services\\BookingServices.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\Services\\BookingServices.cs",
+              "RelativeToolTip": "BookingService\\Services\\BookingServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ParkingTest.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\Testing\\ParkingTest.cs",
+              "RelativeDocumentMoniker": "Testing\\ParkingTest.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\Testing\\ParkingTest.cs",
+              "RelativeToolTip": "Testing\\ParkingTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\appsettings.json",
+              "RelativeDocumentMoniker": "AccountService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\AccountService\\appsettings.json",
+              "RelativeToolTip": "AccountService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T08:37:36.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bookingtesting.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\Testing\\Bookingtesting.cs",
+              "RelativeDocumentMoniker": "Testing\\Bookingtesting.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\Testing\\Bookingtesting.cs",
+              "RelativeToolTip": "Testing\\Bookingtesting.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAuwGIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\Model\\Booking.cs",
+              "RelativeDocumentMoniker": "BookingService\\Model\\Booking.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\Model\\Booking.cs",
+              "RelativeToolTip": "BookingService\\Model\\Booking.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SlotService.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\Services\\SlotService.cs",
+              "RelativeDocumentMoniker": "ParkingProvider\\Services\\SlotService.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\Services\\SlotService.cs",
+              "RelativeToolTip": "ParkingProvider\\Services\\SlotService.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAmwLgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ParkingSlots.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\Models\\ParkingSlots.cs",
+              "RelativeDocumentMoniker": "ParkingProvider\\Models\\ParkingSlots.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\Models\\ParkingSlots.cs",
+              "RelativeToolTip": "ParkingProvider\\Models\\ParkingSlots.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\FeedbackService\\Repository\\UserFeedback.cs",
+              "RelativeDocumentMoniker": "FeedbackService\\Repository\\UserFeedback.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\FeedbackService\\Repository\\UserFeedback.cs",
+              "RelativeToolTip": "FeedbackService\\Repository\\UserFeedback.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\API gateway service\\Program.cs",
+              "RelativeDocumentMoniker": "API gateway service\\Program.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\API gateway service\\Program.cs",
+              "RelativeToolTip": "API gateway service\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\FeedbackService\\Modal\\Feedback.cs",
+              "RelativeDocumentMoniker": "FeedbackService\\Modal\\Feedback.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\FeedbackService\\Modal\\Feedback.cs",
+              "RelativeToolTip": "FeedbackService\\Modal\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "API-gateway-config.json",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\API gateway service\\API-gateway-config.json",
+              "RelativeDocumentMoniker": "API gateway service\\API-gateway-config.json",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\API gateway service\\API-gateway-config.json",
+              "RelativeToolTip": "API gateway service\\API-gateway-config.json",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowBcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T08:37:36.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\API gateway service\\appsettings.json",
+              "RelativeDocumentMoniker": "API gateway service\\appsettings.json",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\API gateway service\\appsettings.json",
+              "RelativeToolTip": "API gateway service\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T08:37:36.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IFeedbackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\FeedbackService\\IRepository\\IFeedbackRepository.cs",
+              "RelativeDocumentMoniker": "FeedbackService\\IRepository\\IFeedbackRepository.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\FeedbackService\\IRepository\\IFeedbackRepository.cs",
+              "RelativeToolTip": "FeedbackService\\IRepository\\IFeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISlotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\IRepository\\ISlotRepository.cs",
+              "RelativeDocumentMoniker": "ParkingProvider\\IRepository\\ISlotRepository.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\IRepository\\ISlotRepository.cs",
+              "RelativeToolTip": "ParkingProvider\\IRepository\\ISlotRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:36.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\appsettings.json",
+              "RelativeDocumentMoniker": "ParkingProvider\\appsettings.json",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\appsettings.json",
+              "RelativeToolTip": "ParkingProvider\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T08:37:36.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ParkingSlotDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\Data Context\\ParkingSlotDbContext.cs",
+              "RelativeDocumentMoniker": "ParkingProvider\\Data Context\\ParkingSlotDbContext.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\ParkingProvider\\Data Context\\ParkingSlotDbContext.cs",
+              "RelativeToolTip": "ParkingProvider\\Data Context\\ParkingSlotDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:37.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241029160146_data.cs",
+              "DocumentMoniker": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\Migrations\\20241029160146_data.cs",
+              "RelativeDocumentMoniker": "BookingService\\Migrations\\20241029160146_data.cs",
+              "ToolTip": "C:\\Users\\Boggarapu.koushik\\OneDrive - Happiest Minds Technologies Limited\\Documents\\capstone_parkspot\\backend\\ParkSpot\\BookingService\\Migrations\\20241029160146_data.cs",
+              "RelativeToolTip": "BookingService\\Migrations\\20241029160146_data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:37:37.011Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

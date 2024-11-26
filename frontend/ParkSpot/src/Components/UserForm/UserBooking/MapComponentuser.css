@@ -1,0 +1,91 @@
+/* Style for the map container */
+.map-container {
+  height: 400px;
+  width: 90%;
+  max-width: 800px; /* Optional: Set a max width for large screens */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 0 auto; /* Center the map container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Custom marker popups */
+.leaflet-popup-content {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.leaflet-popup-tip {
+  background-color: #3498db;
+}
+
+/* Customize the map zoom buttons */
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  background-color: #3498db;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.1em;
+  padding: 4px 6px;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .map-container {
+      height: 350px;
+      width: 95%;
+  }
+
+  .leaflet-popup-content {
+      font-size: 13px; /* Slightly smaller text */
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+      font-size: 1em;
+      padding: 3px 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-container {
+      height: 300px;
+      width: 100%;
+  }
+
+  .leaflet-popup-content {
+      font-size: 12px;
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+      font-size: 0.9em;
+      padding: 3px 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-container {
+      height: 250px;
+      width: 100%;
+  }
+
+  .leaflet-popup-content {
+      font-size: 11px;
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+      font-size: 0.8em;
+      padding: 2px 3px;
+  }
+}

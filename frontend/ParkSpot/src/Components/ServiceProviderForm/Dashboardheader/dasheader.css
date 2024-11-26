@@ -1,0 +1,128 @@
+/* dasheader.css
+
+/* General header styles */
+.header2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; /* Ensures header is above other content */
+    padding: 10px 20px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space out content */
+    
+}
+
+/* Body padding to accommodate fixed header */
+body {
+    padding-top: 90px; /* Creates space below the fixed header */
+}
+
+/* Title styles */
+.title-dashboard {
+    font-size: 1.8rem;
+    color: #000000; /* Title color */
+    margin-left: -200px;
+   
+}
+ 
+/* Navigation link styles */
+.nav-links {
+    display: flex;
+    flex-direction: row; /* Row layout for navigation */
+    justify-content: center; /* Center links horizontally */
+    align-items: center; /* Center links vertically */
+    gap: 10px; /* Space between each link */
+}
+
+/* Navigation button styles */
+.nav-button {
+    display: flex;
+    align-items: center;
+    color: rgb(2, 0, 0); /* Text color for buttons */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding for buttons */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    font-weight:bolder;
+}
+
+/* Add hover effect for navigation buttons */
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Change background on hover */
+}
+
+/* Login button styles */
+.login-button {
+    color: rgb(255, 255, 255); /* Text color */
+    padding: 8px 16px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1rem; /* Font size */
+    margin-right: 100px; /* Space to the right */
+    background-color: black; /* Background color */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+/* Add hover effect for login button */
+.login-button:hover {
+    background-color: rgba(7, 7, 7, ); /* Lighten on hover */
+}
+
+/* Dropdown styling */
+.dropdown {
+    position: relative; /* Positioning for dropdown */
+    display: inline-block; /* Inline-block for dropdown */
+}
+
+/* Dropdown button styles */
+.dropbtn {
+    background-color: #ffffff; /* Background color */
+    color: black; /* Text color */
+    padding: 10px 15px; /* Padding */
+    font-size: 1rem; /* Font size */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Dropdown content styles */
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute; /* Absolute positioning */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Shadow */
+    min-width: 160px; /* Minimum width */
+    z-index: 1; /* Stack above other elements */
+}
+
+/* Dropdown link styles */
+.dropdown-content .dropdown-link {
+    color: black; /* Text color */
+    padding: 12px 16px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Block display */
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block; /* Show on hover */
+}
+
+/* Image styles */
+img {
+    margin-right: 10px; /* Space between image and text */
+    height: 50px; /* Image height */
+}
+ 
+
+
+
+
+
+
+

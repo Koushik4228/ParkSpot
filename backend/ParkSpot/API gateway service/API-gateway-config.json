@@ -1,0 +1,66 @@
+{
+  "Routes": [
+
+    //Configure gateway for account service
+    {
+      "DownstreamPathTemplate": "/api/Account/{Everything}",
+      "DownstreamSchema": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7210
+        }
+
+      ],
+
+      "UpstreamPathTemplate": "/gateway/Account/{Everything}",
+      "UpstreamHttpMethods": [ "Get", "Post", "Put", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/{Everything}",
+      "DownstreamSchema": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7112
+        }
+
+      ],
+
+      "UpstreamPathTemplate": "/gateway/Booking/{Everything}",
+      "UpstreamHttpMethods": [ "Get", "Post", "Put", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ParkingSlots/{Everything}",
+      "DownstreamSchema": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7065
+        }
+
+      ],
+
+      "UpstreamPathTemplate": "/gateway/ParkingSlots/{Everything}",
+      "UpstreamHttpMethods": [ "Get", "Post", "Put", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/feedback/{Everything}",
+      "DownstreamSchema": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7216
+        }
+
+      ],
+
+      "UpstreamPathTemplate": "/gateway/feedback/{Everything}",
+      "UpstreamHttpMethods": [ "Get", "Post", "Put", "Delete" ]
+    }
+
+
+
+  ]
+
+}

@@ -1,0 +1,123 @@
+/* Container for accepted data */
+.accepted-data-container {
+    padding: 20px;
+    margin-top: 60px; /* Space for the header */
+    max-width: 1200px; /* Limit the width */
+    margin-left: auto; /* Center alignment */
+    margin-right: auto; /* Center alignment */
+    background-color: #f9f9f9; /* Light background for the container */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Title styling */
+.accepted-title {
+    font-size: 24px; /* Larger title */
+    color: #333; /* Dark color for the title */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Loading message styling */
+.accepted-loading-message {
+    text-align: center; /* Center the loading message */
+    font-size: 18px; /* Larger text for loading */
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/* Error message styling */
+.accepted-error-message {
+    text-align: center; /* Center the error message */
+    font-size: 18px; /* Larger text for error */
+    color: #dc3545; /* Red color for error messages */
+}
+
+/* Table styling */
+.accepted-table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+.accepted-table th,
+.accepted-table td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Left align text */
+}
+
+.accepted-table th {
+    background-color: #4caf50; /* Header background color */
+    color: white; /* Header text color */
+    font-size: 16px; /* Font size for headers */
+}
+
+.accepted-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+.accepted-table tr:hover {
+    background-color: #e0e0e0; /* Highlight row on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .accepted-title {
+        font-size: 22px; /* Smaller title for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .accepted-title {
+        font-size: 20px; /* Smaller title on mobile */
+    }
+
+    .accepted-table th,
+    .accepted-table td {
+        font-size: 14px; /* Smaller text for mobile */
+        padding: 8px; /* Reduced padding for mobile */
+    }
+
+    .accepted-loading-message,
+    .accepted-error-message {
+        font-size: 16px; /* Smaller loading and error messages */
+    }
+}
+
+@media (max-width: 480px) {
+    .accepted-title {
+        font-size: 18px; /* Further reduced title size */
+    }
+
+    .accepted-table th,
+    .accepted-table td {
+        font-size: 12px; /* Smaller text for very small screens */
+        padding: 6px; /* Further reduced padding */
+    }
+
+    .accepted-loading-message,
+    .accepted-error-message {
+        font-size: 14px; /* Smaller loading and error messages */
+    }
+
+    /* Hide the table header on small screens to save space */
+    .accepted-table th {
+        display: none; /* Hide header */
+    }
+
+    .accepted-table td {
+        display: block; /* Display cells as blocks */
+        text-align: right; /* Right align text */
+        position: relative; /* Position for pseudo elements */
+        padding: 10px; /* Padding for blocks */
+        border: none; /* Remove border for blocks */
+        border-bottom: 1px solid #ddd; /* Add bottom border for separation */
+    }
+
+    .accepted-table td::before {
+        content: attr(data-label); /* Use data-label for context */
+        position: absolute; /* Position it absolutely */
+        left: 10px; /* Space from the left */
+        top: 10px; /* Space from the top */
+        font-weight: bold; /* Bold label */
+    }
+}

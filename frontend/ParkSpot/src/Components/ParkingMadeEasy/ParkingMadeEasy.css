@@ -1,0 +1,152 @@
+.container-parkingmadeeasy {
+    text-align: center;
+    padding: 50px 20px; /* Reduced padding for smaller screens */
+    max-width: 1200px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the container */
+}
+
+.header {
+    margin-bottom: 30px; /* Reduced margin for a tighter layout */
+    background-color: white;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0; /* Remove margin for consistency */
+}
+
+.header p {
+    font-size: 18px;
+    color: #666; /* Consistent color for text */
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Reduced gap for better spacing */
+    margin-bottom: 30px; /* Reduced margin */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.feature {
+    text-align: center;
+    max-width: 220px; /* Allow a bit more width on larger screens */
+    flex: 1 1 auto; /* Allow flex items to grow and shrink */
+    margin: 10px; /* Consistent margin around features */
+}
+
+.feature img {
+    width: 100px; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Reduced bottom margin */
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin: 10px 0; /* Consistent vertical margin */
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .header h1 {
+        font-size: 32px; /* Adjusted header font size */
+    }
+
+    .header p {
+        font-size: 16px; /* Smaller paragraph font size */
+    }
+
+    .features {
+        gap: 30px; /* Further reduced gap */
+    }
+
+    .feature {
+        max-width: 180px; /* Smaller feature width */
+    }
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 28px; /* Smaller header font size */
+    }
+
+    .header p {
+        font-size: 15px; /* Smaller paragraph font size */
+    }
+
+    .features {
+        gap: 20px; /* Reduced gap for smaller screens */
+    }
+
+    .feature {
+        max-width: 150px; /* Smaller feature width */
+        flex: 1 1 100%; /* Each feature takes full width */
+    }
+
+    .feature img {
+        width: 80px; /* Smaller image size */
+    }
+
+    .feature h3 {
+        font-size: 20px; /* Smaller heading */
+    }
+
+    .feature p {
+        font-size: 14px; /* Smaller paragraph */
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 24px; /* Even smaller header font size */
+    }
+
+    .header p {
+        font-size: 14px; /* Smaller paragraph font size */
+    }
+
+    .features {
+        gap: 10px; /* Further reduced gap for very small screens */
+    }
+
+    .feature {
+        max-width: 100%; /* Allow features to take full width */
+        flex-basis: 100%; /* Make each feature take full width */
+    }
+
+    .feature img {
+        width: 70px; /* Even smaller image size */
+    }
+
+    .feature h3 {
+        font-size: 18px; /* Smaller heading */
+    }
+
+    .feature p {
+        font-size: 12px; /* Smaller paragraph */
+    }
+}
+
+@media (max-width: 360px) {
+    .header h1 {
+        font-size: 22px; /* Smaller header font size for very small screens */
+    }
+
+    .header p {
+        font-size: 12px; /* Smaller paragraph font size */
+    }
+
+    .feature h3 {
+        font-size: 16px; /* Smaller heading */
+    }
+
+    .feature p {
+        font-size: 11px; /* Smaller paragraph */
+    }
+}

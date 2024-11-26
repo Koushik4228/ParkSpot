@@ -1,0 +1,75 @@
+.service-provider-data-container {
+    padding: 20px;
+    margin-left: 200px;
+    max-height: 80vh; /* Increased height for better visibility */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.provider-heading {
+    margin-bottom: 20px; /* Spacing below the heading */
+    font-size: 24px; /* Increased font size */
+    text-align: center; /* Centered heading */
+}
+
+.service-provider-table {
+    width: 100%; /* Full width for better responsiveness */
+    border-collapse: collapse;
+}
+
+.service-provider-table th,
+.service-provider-table td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Adjusted padding for better spacing */
+    text-align: left;
+}
+
+.service-provider-table th {
+    background-color: #f7ca4e; /* Header background color */
+    font-weight: bold;
+    position: sticky; /* Sticky header */
+    top: 0; /* Keep header at the top */
+    z-index: 10; /* Ensure header is above table rows */
+}
+
+.service-provider-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.service-provider-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .service-provider-data-container {
+        margin-left: 20px; /* Reduced margin for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .service-provider-table th,
+    .service-provider-table td {
+        padding: 8px; /* Reduced padding for smaller screens */
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .provider-heading {
+        font-size: 20px; /* Smaller heading size */
+    }
+}
+
+@media (max-width: 480px) {
+    .service-provider-table th,
+    .service-provider-table td {
+        padding: 6px; /* Further reduced padding for mobile */
+        font-size: 10px; /* Smaller font for mobile */
+    }
+
+    .provider-heading {
+        font-size: 18px; /* Further reduced heading size */
+    }
+
+    .service-provider-data-container {
+        margin-left: 0; /* Remove left margin for mobile */
+    }
+}

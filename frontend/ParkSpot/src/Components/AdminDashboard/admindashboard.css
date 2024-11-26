@@ -1,0 +1,164 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin-dashboard {
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    margin-top: 70px; /* Align with header height */
+    flex-direction: row;
+    overflow-x: hidden; /* Prevent horizontal scroll on smaller screens */
+}
+
+/* Sidebar (Dashboard Header) */
+.dashboard-header {
+    height: 100%; /* Full height of the container */
+    width: 23%;
+    background-color: white;
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    position: fixed;
+    top: 70px; /* Adjust based on header */
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Add a shadow for separation */
+    transition: width 0.3s; /* Smooth transition for responsive changes */
+}
+
+/* Header Text */
+.dashboard-header h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Button Style */
+.dashboard-button {
+    width: 200px;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 9px;
+    background-color: #f7ca4e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+/* Link Styles */
+.adminnav {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.adminnav:hover {
+    color: #333; /* Darker shade on hover */
+}
+
+/* Main Content Area */
+.dashboard-content {
+    margin-left: 23%; /* Offset for the fixed sidebar */
+    width: 77%;
+    padding: 20px;
+    transition: margin-left 0.3s; /* Smooth transition for responsive changes */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .dashboard-header {
+        width: 20%; /* Narrower sidebar */
+    }
+
+    .dashboard-content {
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    .dashboard-button {
+        width: 180px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .admin-dashboard {
+        flex-direction: column;
+    }
+
+    .dashboard-header {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        box-shadow: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .dashboard-header h2 {
+        font-size: 1.3rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .button-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .dashboard-button {
+        width: auto;
+        flex: 1;
+        padding: 8px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    .dashboard-content {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-header {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .dashboard-header h2 {
+        font-size: 1.1rem;
+    }
+
+    .dashboard-button {
+        width: 100%;
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .dashboard-content {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+}

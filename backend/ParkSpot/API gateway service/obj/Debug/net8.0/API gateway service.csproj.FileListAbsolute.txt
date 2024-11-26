@@ -1,0 +1,47 @@
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\API-gateway-config.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\appsettings.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\API gateway service.staticwebassets.endpoints.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\API gateway service.exe
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\API gateway service.deps.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\API gateway service.runtimeconfig.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\API gateway service.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\API gateway service.pdb
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Ocelot.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.csproj.AssemblyReference.cache
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.AssemblyInfoInputs.cache
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.AssemblyInfo.cs
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.csproj.CoreCompileInputs.cache
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\scopedcss\bundle\API gateway service.styles.css
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets\msbuild.API gateway service.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets\msbuild.API gateway service.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets\msbuild.build.API gateway service.props
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API gateway service.props
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API gateway service.props
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gate.CDD2713D.Up2Date
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\refint\API gateway service.dll
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.pdb
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\API gateway service.genruntimeconfig.cache
+C:\Users\Boggarapu.koushik\OneDrive - Happiest Minds Technologies Limited\Documents\capstone_parkspot\backend\ParkSpot\API gateway service\obj\Debug\net8.0\ref\API gateway service.dll

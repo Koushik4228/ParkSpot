@@ -1,0 +1,117 @@
+/* General Container Styles */
+.form-box {
+    max-width: 600px; /* Limit maximum width */
+    margin: 80px auto; /* Center on the page */
+    padding: 20px; /* Inner padding */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 140px;
+}
+
+/* Title Styles */
+.title-heading {
+    text-align: center; /* Center title */
+    color: #101111; /* Dark teal color */
+    margin-bottom: 20px; /* Space below title */
+    font-size: 2em; /* Title size */
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.already{
+    margin: 10px;
+}
+
+/* Service Provider Area */
+.service-provider-area {
+    text-align: center; /* Center content */
+    margin-bottom: 20px; /* Space below */
+}
+
+.service-provider-label {
+    font-weight: bold; /* Bold label */
+}
+
+.registerHere {
+    color: #00796b; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.registerHere:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Input Label Styles */
+.input-label {
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+/* Input Field Styles */
+.input-field {
+    width: 100%; /* Full width */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below inputs */
+    font-size: 1em; /* Font size */
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+.input-field:focus {
+    border-color: #00796b; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Error Message Styles */
+.error-message {
+    color: #d32f2f; /* Red color for errors */
+    font-size: 0.9em; /* Smaller font for errors */
+}
+
+/* Button Area */
+.button-area {
+    text-align: center; /* Center button */
+}
+
+.btn-action {
+    background-color: #00796b; /* Dark teal background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition for background color */
+}
+
+.btn-action:hover {
+    background-color: #005b4f; /* Darker teal on hover */
+}
+
+/* Password Strength Meter */
+.password-strength-meter {
+    height: 5px; /* Height of the meter */
+    width: 100%; /* Full width */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Responsive Styles */
+@media (max-width: 500px) {
+    .form-box {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .title-heading {
+        font-size: 1.5em; /* Adjust title size */
+    }
+
+    .input-field {
+        font-size: 0.9em; /* Slightly smaller font */
+    }
+
+    .btn-action {
+        width: 100%; /* Full width for buttons */
+    }
+}

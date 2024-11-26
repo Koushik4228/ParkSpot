@@ -1,0 +1,37 @@
+.unique-payment-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin-top: 50px;
+}
+
+.unique-payment-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.unique-payment-card h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.unique-payment-card p {
+    margin: 10px 0;
+    color: #555; /* Lighter text color */
+}
+
+.unique-payment-card .unique-pay-button {
+    background-color: #f7ca4e; /* Pink background */
+    color: rgb(0, 0, 0); /* Black text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}

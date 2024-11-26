@@ -1,0 +1,102 @@
+/* Container for rejected data */
+.rejected-data-container {
+    padding: 20px;
+    margin-top: 60px; /* Space for the header */
+    max-width: 1200px; /* Limit the width */
+    margin-left: auto; /* Center alignment */
+    margin-right: auto; /* Center alignment */
+    background-color: #f9f9f9; /* Light background for the container */
+    border-radius: 8px; /* Rounded corners */
+    
+}
+
+/* Title styling */
+.rejected-title {
+    font-size: 24px; /* Larger title */
+    color: #333; /* Dark color for the title */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Loading message styling */
+.rejected-loading-message {
+    text-align: center; /* Center the loading message */
+    font-size: 18px; /* Larger text for loading */
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/* Error message styling */
+.rejected-error-message {
+    text-align: center; /* Center the error message */
+    font-size: 18px; /* Larger text for error */
+    color: #dc3545; /* Red color for error messages */
+}
+
+/* Table styling */
+.rejected-table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+.rejected-table th,
+.rejected-table td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Left align text */
+}
+
+.rejected-table th {
+    background-color: red; /* Header background color */
+    color: white; /* Header text color */
+    font-size: 16px; /* Font size for headers */
+}
+
+.rejected-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+.rejected-table tr:hover {
+    background-color: #e0e0e0; /* Highlight row on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .rejected-title {
+        font-size: 22px; /* Slightly smaller title for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .rejected-title {
+        font-size: 20px; /* Smaller title on mobile */
+    }
+
+    .rejected-table th,
+    .rejected-table td {
+        font-size: 14px; /* Smaller text for mobile */
+        padding: 8px; /* Reduced padding for mobile */
+    }
+
+    .rejected-loading-message,
+    .rejected-error-message {
+        font-size: 16px; /* Smaller loading and error messages */
+    }
+}
+
+@media (max-width: 480px) {
+    .rejected-title {
+        font-size: 18px; /* Further reduced title size */
+    }
+
+    .rejected-table th,
+    .rejected-table td {
+        font-size: 12px; /* Smaller text for very small screens */
+        padding: 6px; /* Further reduced padding */
+    }
+
+    .rejected-loading-message,
+    .rejected-error-message {
+        font-size: 14px; /* Smaller loading and error messages */
+    }
+}

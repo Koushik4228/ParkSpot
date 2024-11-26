@@ -1,0 +1,125 @@
+/* Container for the entire admin slot management */
+.admin-slot-container {
+    padding: 20px;
+    margin-top: 60px; /* Space for the header */
+
+    background-color: #f9f9f9; /* Light background for the container */
+}
+
+/* Cards container */
+.admin-slot-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to create rows */
+    gap: 20px; /* Spacing between cards */
+    justify-content: space-between; /* Space out cards evenly */
+}
+
+/* Card styling */
+.slot-card {
+    flex: 0 0 calc(50% - 20px); /* Two cards per row, accounting for gap */
+    padding: 15px;
+    border: 1px solid #e0e0e0; /* Lighter border for a softer look */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Deeper shadow for better depth */
+    background-color: #ffffff; /* White background for cards */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.slot-card:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Typography styles */
+.slot-location,
+.slot-price,
+.slot-status {
+    margin-bottom: 10px; /* Space between text lines */
+    color: #333; /* Darker text for contrast */
+}
+
+/* Button styling */
+.accept-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.reject-button {
+    background-color: #dc3545; /* Red for reject */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+/* Button hover effects */
+.accept-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.reject-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Responsive styles */
+
+/* For tablet and below screens (<=768px) */
+@media (max-width: 768px) {
+    /* Adjust container margin for smaller screens */
+    .admin-slot-container {
+        margin-left: 20px; /* Reduced margin for smaller screens */
+        margin-right: 20px; /* Added right margin for consistency */
+    }
+
+    /* Make the cards stack vertically on smaller screens */
+    .slot-card {
+        flex: 0 0 calc(100% - 20px); /* Full width for single card on small screens */
+    }
+
+    /* Adjust text size for slot location, price, and status */
+    .slot-location,
+    .slot-price,
+    .slot-status {
+        font-size: 14px; /* Smaller font size for better readability on smaller screens */
+    }
+
+    /* Adjust button font size for mobile */
+    .accept-button,
+    .reject-button {
+        font-size: 14px; /* Button font size for mobile */
+        padding: 8px 12px; /* Slightly smaller padding */
+    }
+}
+
+/* For very small screens (<=480px) */
+@media (max-width: 480px) {
+    /* Further reduce the font size for very small screens */
+    .slot-location,
+    .slot-price,
+    .slot-status {
+        font-size: 12px; /* Further reduced font size for mobile */
+    }
+
+    /* Ensure buttons still look good on small screens */
+    .accept-button,
+    .reject-button {
+        font-size: 12px; /* Smaller font size for buttons */
+        padding: 6px 10px; /* Reduced padding for smaller devices */
+    }
+
+    /* Adjust the card layout to take full width */
+    .slot-card {
+        flex: 0 0 100%; /* Make cards take full width on small screens */
+    }
+
+    /* Ensure some padding on admin slot container for small screens */
+    .admin-slot-container {
+        padding: 10px; /* Reduced padding for smaller devices */
+    }
+}

@@ -1,0 +1,99 @@
+.unique-bookings-table-container {
+  padding: 20px; /* Add padding to the container */
+  margin-left: 100px; /* Left margin for layout */
+
+}
+
+/* Responsive adjustments for the container */
+@media (max-width: 768px) {
+  .unique-bookings-table-container {
+      margin-left: 20px; /* Reduced margin on smaller screens */
+      margin-right: 20px; /* Add right margin for better alignment */
+  }
+}
+
+/* Table styling */
+.unique-bookings-table {
+  width: 100%; /* Full width of the content area */
+  border-collapse: collapse; /* Remove gaps between table cells */
+  margin-top: 30px;
+}
+
+/* Table headers */
+.unique-bookings-table th {
+  border: 1px solid #ccc; /* Add border to cells */
+  padding: 8px; /* Add padding */
+  text-align: left; /* Align text to the left */
+  background-color: #f7ca4e; /* Light background for headers */
+}
+
+/* Table cells */
+.unique-bookings-table td {
+  border: 1px solid #ccc; /* Add border to cells */
+  padding: 8px; /* Add padding */
+  text-align: left; /* Align text to the left */
+}
+
+/* Heading Style */
+.unique-bookings-table-container h2 {
+  margin: 0 auto; /* Center heading automatically */
+  text-align: center; /* Center text */
+  margin-top: 50px; /* Space above the heading */
+  font-size: 24px; /* Larger font size for the heading */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .unique-bookings-table-container h2 {
+      font-size: 22px; /* Smaller heading on tablets */
+  }
+
+  .unique-bookings-table th,
+  .unique-bookings-table td {
+      font-size: 14px; /* Smaller text for headers and cells */
+  }
+}
+
+@media (max-width: 768px) {
+  .unique-bookings-table-container h2 {
+      font-size: 20px; /* Smaller heading on mobile */
+  }
+
+  .unique-bookings-table th,
+  .unique-bookings-table td {
+      font-size: 12px; /* Even smaller text for mobile */
+      padding: 6px; /* Reduced padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .unique-bookings-table th,
+  .unique-bookings-table td {
+      display: block; /* Make cells block elements */
+      width: 100%; /* Full width for cells */
+      text-align: right; /* Right align text */
+      position: relative; /* Position relative for labels */
+      padding: 10px 0; /* Padding for blocks */
+      border: none; /* Remove borders for blocks */
+      border-bottom: 1px solid #ccc; /* Add bottom border for separation */
+  }
+
+  .unique-bookings-table td::before {
+      content: attr(data-label); /* Use data-label for context */
+      position: absolute; /* Position it absolutely */
+      left: 10px; /* Space from the left */
+      top: 10px; /* Space from the top */
+      font-weight: bold; /* Bold label */
+      text-align: left; /* Left align label */
+  }
+
+  .unique-bookings-table-container {
+      padding: 10px; /* Reduced padding for mobile */
+  }
+}
+
+#j1{
+  color: red;
+  text-align: center;
+  font-size: 1.2rem;
+}

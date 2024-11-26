@@ -1,0 +1,121 @@
+.adminheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; /* Ensures header is above other content */
+    padding: 10px 20px;
+    height: 70px;
+    background-color: rgb(255, 255, 255); /* White background for header */
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space out content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for separation */
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* Logo styling */
+.adminheader img {
+    width: 80px; /* Logo width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Title styling */
+.adminheadertitle {
+    font-size: 1.5em; /* Title font size */
+    color: #333; /* Dark gray color for the title */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center title */
+    flex: 1; /* Allow title to take up available space */
+    margin-right: 600px;
+}
+
+/* Icon container */
+.icon-container {
+    display: flex;
+    align-items: center; /* Center align icons vertically */
+    justify-content: flex-end; /* Align icons to the right */
+    
+}
+
+/* Individual icon button */
+.icon-button {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor on hover */
+    margin: 0 8px; /* Spacing between icons */
+    font-size: 24px; /* Adjust icon size as needed */
+    color: #333; /* Icon color */
+    
+    
+}
+
+/* Login/logout button */
+.login-button {
+    background-color: #000000; /* Black color for logout button */
+    color: white; /* White text color */
+    padding: 8px 15px; /* Padding for the button */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-left: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .adminheader {
+        padding: 8px 15px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .adminheader img {
+        width: 60px; /* Adjust logo size */
+        margin-bottom: 8px; /* Space between logo and title */
+    }
+
+    .adminheadertitle {
+        font-size: 1.3em; /* Slightly reduce font size */
+        text-align: center;
+        flex: none; /* Disable flex grow on smaller screens */
+    }
+
+    .icon-container {
+        justify-content: center; /* Center icons on smaller screens */
+        flex: none; /* Disable flex grow */
+        margin-top: 5px;
+    }
+
+    .icon-button {
+        font-size: 20px; /* Smaller icon size */
+    }
+
+    .login-button {
+        padding: 6px 10px; /* Smaller padding for logout button */
+    }
+}
+
+@media (max-width: 480px) {
+    .adminheader {
+        padding: 5px 10px;
+    }
+
+    .adminheader img {
+        width: 50px; /* Further reduce logo size */
+    }
+
+    .adminheadertitle {
+        font-size: 1.1em; /* Further reduce font size */
+    }
+
+    .icon-button {
+        font-size: 18px; /* Further reduce icon size */
+        margin: 0 5px;
+    }
+
+    .login-button {
+        padding: 5px 8px; /* Further reduce padding */
+        font-size: 0.9em;
+    }
+}

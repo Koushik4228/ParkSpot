@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\API gateway service.props" />
+</Project>

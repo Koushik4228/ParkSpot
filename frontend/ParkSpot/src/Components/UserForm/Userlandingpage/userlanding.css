@@ -1,0 +1,105 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.user-landing-booking-section {
+  display: flex;
+  flex-direction: column; /* Stack vertically on small screens */
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px; /* Max width for larger screens */
+  margin: auto; /* Center align */
+  margin-top: 80px;
+}
+
+.image-wrapper {
+  width: 100%; /* Full width */
+  max-width: 600px; /* Limit max width */
+  overflow: hidden; /* Ensure no overflow */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.image-wrapper img {
+  width: 600px; /* Responsive image */
+  height: 400px; /* Maintain aspect ratio */
+  display: block; /* Remove bottom space */
+}
+
+.content-wrapper {
+  text-align: center; /* Center text */
+  margin-top: 20px; /* Space above content */
+  padding: 15px;
+  background-color: #fff; /* White background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  height: 250px;
+
+}
+.prebook {
+  font-size: 1.8rem; /* Responsive font size */
+  margin: 10px 0; /* Margin around heading */
+}
+
+.reserve {
+  font-size: 1rem; /* Base font size */
+  line-height: 1.5; /* Line height for readability */
+  margin: 5px 0; /* Margin between paragraphs */
+}
+
+.book-now-button {
+  background-color: #f7ca4e; /* Button color */
+  color: black; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+  height: 50px;
+}
+
+.book-now-button:hover {
+  background-color: #d8a54c; /* Darker on hover */
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
+  .user-landing-booking-section {
+    flex-direction: row; /* Row on larger screens */
+    justify-content: space-around; /* Space between items */
+  }
+
+  .content-wrapper {
+    max-width: 400px; /* Limit content width */
+  }
+
+  h2 {
+    font-size: 2rem; /* Increase heading size */
+  }
+
+  p {
+    font-size: 1.1rem; /* Slightly larger paragraph text */
+  }
+}
+
+@media (min-width: 900px) {
+  .user-landing-booking-section {
+    padding: 40px; /* More padding on larger screens */
+  }
+
+  h2 {
+    font-size: 2.5rem; /* Larger heading for extra-large screens */
+  }
+
+  p {
+    font-size: 1.2rem; /* Larger paragraph text */
+  }
+
+  .book-now-button {
+    padding: 15px 30px; /* Bigger button on large screens */
+  }
+}

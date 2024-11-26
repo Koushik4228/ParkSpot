@@ -1,0 +1,109 @@
+/* Container for the cards */
+.container9 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 110px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Card styles */
+.card5 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1 1 200px; /* Allow cards to grow and shrink */
+    max-width: 250px; /* Limit max width for larger screens */
+    height: 220px;
+}
+
+/* Hover effect */
+.card5:hover {
+    background-color: #FFE08A;
+    box-shadow: 0 12px 24px rgba(114, 0, 254, 0.4);
+    transform: translateY(-10px);
+}
+
+.card5 h2 {
+    font-size: 24px;
+    margin: 0;
+    color: black;
+}
+
+.card5 p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: black;
+}
+
+/* Responsive design */
+
+/* Tablets and medium screens (1024px or less) */
+@media only screen and (max-width: 1024px) {
+    .container9 {
+        margin-top: 200px; /* Adjust margin for smaller screens */
+    }
+
+    .card5 {
+        flex: 1 1 180px; /* Adjust card size */
+    }
+
+    .card5 h2 {
+        font-size: 22px; /* Adjust font size */
+    }
+
+    .card5 p {
+        font-size: 14px;
+    }
+}
+
+/* Small tablets and large phones (768px or less) */
+@media only screen and (max-width: 768px) {
+    .container9 {
+        margin-top: 150px;
+        flex-direction: column; /* Stack cards vertically */
+        padding: 10px;
+        align-items: center; /* Center cards */
+    }
+
+    .card5 {
+        width: 90%; /* Full width with some margin */
+        margin-bottom: 20px;
+    }
+
+    .card5 h2 {
+        font-size: 20px;
+    }
+
+    .card5 p {
+        font-size: 14px;
+    }
+}
+
+/* Mobile phones (480px or less) */
+@media only screen and (max-width: 480px) {
+    .container9 {
+        margin-top: 120px;
+        padding: 10px;
+        align-items: center; /* Center cards */
+    }
+
+    .card5 {
+        width: 95%; /* More space for mobile */
+        margin-bottom: 20px;
+    }
+
+    .card5 h2 {
+        font-size: 18px; /* Smaller font size for mobile */
+    }
+
+    .card5 p {
+        font-size: 12px;
+    }
+}

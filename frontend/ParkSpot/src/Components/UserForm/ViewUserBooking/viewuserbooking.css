@@ -1,0 +1,97 @@
+.bookings-table-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto; /* Allows horizontal scrolling */
+  margin-top: 100px;
+}
+
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.bookings-table th,
+.bookings-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.bookings-table th {
+  background-color: #f7ca4e;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.bookings-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.bookings-table tr:hover {
+  background-color: #e9ecef;
+}
+
+.bookings-table td {
+  color: #333;
+  font-size: 14px;
+}
+
+.bookings-table h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.loading-message {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .bookings-table {
+      display: block; /* Change table to block */
+      overflow-x: auto; /* Allow horizontal scrolling */
+      border: 0; /* Remove border */
+  }
+
+  .bookings-table th,
+  .bookings-table td {
+      display: block; /* Make cells block elements */
+      text-align: right; /* Align text to the right */
+      padding: 10px;
+      border: none; /* Remove border */
+      position: relative; /* Position for pseudo-elements */
+  }
+
+  .bookings-table th {
+      display: none; /* Hide header for block display */
+  }
+
+  .bookings-table tr {
+      margin-bottom: 10px; /* Add margin for spacing */
+      border: 1px solid #ddd; /* Add border for rows */
+  }
+
+  .bookings-table td::before {
+      content: attr(data-label); /* Use data-label for context */
+      font-weight: bold;
+      position: absolute; /* Position label */
+      left: 10px; /* Adjust positioning */
+      width: 50%; /* Set width */
+      text-align: left; /* Align text left */
+  }
+}

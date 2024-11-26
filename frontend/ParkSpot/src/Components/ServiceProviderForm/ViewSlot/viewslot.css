@@ -1,0 +1,109 @@
+.slots-manager-container {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center align cards */
+}
+
+.slots-manager-card {
+  margin-bottom: 30px; /* Gap between cards */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* padding: 15px; */
+  background-color: #f9f9f9; /* Light background for cards */
+  width: 100%; /* Full width for responsiveness */
+  max-width: 500px; /* Max width for larger screens */
+  height: 400px; /* Fixed height for the card */
+  margin-top: 50px; /* Top margin */  
+  display: flex; /* Use flexbox for layout control */
+  flex-direction: column; /* Stack content vertically */
+}
+
+.slots-manager-card .card-content {
+  overflow-y: auto; /* Enable vertical scrolling */
+  flex-grow: 1; /* Allow content to grow inside the card */
+  padding-right: 15px; /* Optional: Adds some spacing for scrollbar */
+}
+
+
+
+.slots-manager-title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px; /* Larger title for emphasis */
+  color: #333; /* Darker color for the title */
+}
+
+.slots-manager-search-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.slots-manager-search-box .MuiTextField-root {
+  margin-right: 10px;
+  flex: 1; /* Allow input fields to grow */
+}
+
+.slots-manager-submit-button {
+  background-color: #f7ca42;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  padding: 10px 20px; /* Add padding for a better button appearance */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+
+.slots-manager-submit-button:hover {
+  background-color: #e3b035; /* Darker shade for hover effect */
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.text-field {
+  margin-bottom: 20px;
+  width: 100%; /* Full width for input fields */
+}
+
+/* Icon button styling */
+.MuiIconButton-root {
+  color: #f7ca42;
+}
+
+.MuiIconButton-root:hover {
+  color: #e3b035; /* Darker shade for hover effect */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .slots-manager-container {
+    margin: 20px; /* Reduce margin on smaller screens */
+  }
+
+  .slots-manager-title {
+    font-size: 20px; /* Smaller title on mobile */
+  }
+
+  .slots-manager-search-box {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: stretch; /* Stretch to full width */
+  }
+
+  .slots-manager-search-box .MuiTextField-root {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+
+  .slots-manager-submit-button {
+    width: 100%; /* Full width button on mobile */
+  }
+
+  .slots-manager-card {
+    padding: 10px; /* Less padding in cards for mobile */
+  }
+}

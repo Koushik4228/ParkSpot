@@ -1,0 +1,109 @@
+.statistics {
+    display: flex; /* Use flexbox for sidebar and content layout */
+    min-height: 100vh; /* Full height */
+    background-color: #f9f9f9; /* Light background for better visibility */
+  
+    width: 700px;
+    margin-top: 60px;
+  }
+  @media (max-width: 768px) {
+    .statistics {
+      flex-direction: column; /* Stack sidebar and content on smaller screens */
+    }
+  }
+  /* Sidebar styles */
+  .statistics__sidebar {
+    width: 220px; /* Fixed width for sidebar */
+    background-color: #2b59c3; /* Sidebar color */
+    padding: 20px; /* Padding for sidebar */
+    color: white; /* Text color */
+  }
+  @media (max-width: 768px) {
+    .statistics__sidebar {
+      width: 100%; /* Full width for sidebar on small screens */
+      text-align: center; /* Center content on small screens */
+    }
+  }
+  .statistics__sidebar h2 {
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 24px; /* Title font size */
+  }
+  .statistics__sidebar ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* No padding */
+  }
+  .statistics__sidebar ul li {
+    padding: 15px; /* Padding for each menu item */
+    margin: 10px 0; /* Margin between items */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #3c70d9; /* Item background color */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center align text */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  .statistics__sidebar ul li:hover {
+    background-color: #2b59c3; /* Darker color on hover */
+  }
+  /* Content area styles */
+  .statistics__content {
+    flex: 1; /* Flexible width for content */
+    padding: 20px; /* Padding for content */
+  }
+  @media (max-width: 768px) {
+    .statistics__content {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  }
+  /* Header styles */
+  .statisticsHeader {
+    color: #333; /* Text color */
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+  @media (max-width: 600px) {
+    .statisticsHeader {
+      font-size: 1.5rem; /* Smaller font size on small screens */
+    }
+  }
+  /* Chart section styles */
+  .statisticsChartSection {
+    margin-top: 30px; /* Space above chart */
+    max-width: 800px; /* Set max-width for responsiveness */
+    margin-left: auto; /* Center the chart */
+    margin-right: auto; /* Center the chart */
+    background-color: #fff; /* White background for the chart section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the chart section */
+  }
+  @media (max-width: 768px) {
+    .statisticsChartSection {
+      max-width: 100%; /* Full width for smaller screens */
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  }
+  @media (max-width: 480px) {
+    .statisticsChartSection {
+      padding: 10px; /* Even less padding for extra small screens */
+    }
+  }
+  /* Canvas styles */
+  .statisticsCanvas {
+    width: 100% !important; /* Ensure canvas takes full width */
+    height: auto !important; /* Auto height for responsiveness */
+  }
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .statistics__sidebar {
+      width: 100%; /* Full width sidebar on small screens */
+      padding: 15px; /* Adjust padding */
+    }
+    .statisticsHeader {
+      font-size: 1.5rem; /* Smaller font size on small screens */
+    }
+    .statisticsChartSection {
+      width: 100%; /* Full width on small screens */
+      padding: 10px; /* Less padding */
+    }
+  }

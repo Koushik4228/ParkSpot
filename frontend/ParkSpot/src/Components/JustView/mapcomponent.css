@@ -1,0 +1,32 @@
+/* Ensure the map container takes the full height and width */
+.map-container {
+    height: 70vh; /* Full height of the viewport */
+    width: 100%; /* Full width */
+    
+    
+  }
+  
+  /* Style for the map popups */
+  .leaflet-popup {
+    background: white; /* Popup background color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the popup */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  }
+  
+  /* Customize marker icons */
+  .leaflet-marker-icon {
+    border-radius: 50%; /* Make marker icons circular */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  /* Ensure the popup arrow is styled */
+  .leaflet-popup::after {
+    border-top-color: white; /* Arrow color matching the popup background */
+  }
+  
+  /* Optional: Adjust the tile layer container */
+  .leaflet-control-container {
+    z-index: 1000; /* Ensure controls are above other elements */
+  }
+  
